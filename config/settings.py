@@ -25,7 +25,13 @@ SECRET_KEY = 'django-insecure-ta+yhl)*bn&bq5%q4td!=ilmlm()-xp_l^w8@eepw=v#yixk8b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+
+ALLOWED_HOSTS = [
+    "127.0.0.1", "localhost",
+    ".onrender.com",   # allows any *.onrender.com service URL
+    "veronetwork.co",  # add your domains as you use them
+    "www.veronetwork.co",
+]
 
 
 # Application definition
