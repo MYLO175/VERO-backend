@@ -135,5 +135,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
     "https://veronetwork.co",
     "https://www.veronetwork.co",
-    "https://<your-vercel-app>.vercel.app",  # replace with your real Vercel URL
+    "https://v0-vero-mylo-22-9-25.vercel.app/",  # replace with your real Vercel URL
 ]
