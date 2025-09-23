@@ -27,10 +27,10 @@ DEBUG = True
 
 
 ALLOWED_HOSTS = [
-    "127.0.0.1", "localhost",
-    ".onrender.com",   # allows any *.onrender.com service URL
-    "veronetwork.co",  # add your domains as you use them
-    "www.veronetwork.co",
+    "localhost", "127.0.0.1",
+    "veronetwork.co", "www.veronetwork.co",
+    "v0-vero-mylo-22-9-25.vercel.app", "veronetwork.vercel.app",
+    ".onrender.com",
 ]
 
 
