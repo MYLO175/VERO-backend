@@ -133,7 +133,8 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
+    "https://v0-vero-mylo-22-9-25.vercel.app",
+    "https://veronetwork.vercel.app",
     "https://veronetwork.co",
     "https://www.veronetwork.co",
-    "https://v0-vero-mylo-22-9-25.vercel.app/",  # replace with your real Vercel URL
 ]
