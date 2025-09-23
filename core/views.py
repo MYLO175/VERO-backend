@@ -23,7 +23,8 @@ def waitlist_create(request):
     entry = WaitlistEntry.objects.create(
         email=email,
         name=(data.get("name") or "").strip(),
-        company=(data.get("company") or "").strip(),
+        country_code=(data.get("countryCode") or "").strip(),
+        phone_number=(data.get("phoneNumber") or "").strip(),
         note=(data.get("note") or "").strip(),
     )
     return JsonResponse({"ok": True, "id": entry.id})
